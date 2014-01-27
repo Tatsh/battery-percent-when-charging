@@ -1,6 +1,7 @@
 #define BATTERY_PERCENTAGE_TYPE 8
 #import "SBUIController.h"
 
+// TODO Make this a preference
 static BOOL showOnlyWhenLessThan100 = NO;
 
 %hook SBStatusBarStateAggregator
