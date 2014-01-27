@@ -1,8 +1,8 @@
 # Build instructions
 
 ```bash
-git clone git@github.com:Tatsh/youtube-no-capture.git
-cd youtube-no-capture
+git clone git@github.com:Tatsh/battery-percent-when-charging.git
+cd battery-percent-when-charging
 ln -s "$THEOS" theos
 make package install
 ```
