@@ -1,0 +1,9 @@
+Package: sh.tat.percent-while-charging
+Name: Battery Percent Only When Charging
+Depends: mobilesubstrate
+Version: 0.0.2
+Architecture: iphoneos-arm
+Description: Displays the battery percent only when charging the device.
+Maintainer: Tatsh
+Author: Tatsh
+Section: Tweaks
