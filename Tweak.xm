@@ -1,4 +1,4 @@
-#define BATTERY_PERCENTAGE_TYPE 8
+#import "SBStatusBarStateAggregator.h"
 #import "SBUIController.h"
 
 // TODO Make this a preference
@@ -12,7 +12,7 @@ static BOOL showOnlyWhenLessThan100 = NO;
         return %orig;
     }
 
-    if (arg1 == BATTERY_PERCENTAGE_TYPE && [c isOnAC]) {
+    if (arg1 == kSBStatusBarItemBattery && [c isOnAC]) {
         if (showOnlyWhenLessThan100 && [c batteryCapacityAsPercentage] < 100) {
             return %orig;
         }
